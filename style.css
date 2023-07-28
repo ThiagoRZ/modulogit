@@ -1,0 +1,19 @@
+.header {
+background-color:blue;
+color: white;
+
+}
+.header > p {
+font-size: 21px;
+}
+.header > p + span {
+font-size: 15px;
+}
+.header + div{
+    color: black;
+    background-color: brown;
+}
+div > strong {
+    color: green;
+    background-color: none;
+}
